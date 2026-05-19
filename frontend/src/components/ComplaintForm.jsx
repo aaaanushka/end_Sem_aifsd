@@ -26,7 +26,7 @@ function ComplaintForm() {
 
             await axios.post(
 
-                "http://localhost:5000/api/complaints",
+                "https://smart-complaint-backend-1ubk.onrender.com/api/complaints",
 
                 form,
 
